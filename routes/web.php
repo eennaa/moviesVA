@@ -19,3 +19,5 @@ Route::get('/movies','MovieController@index');
 
 Route::get('/movies/{id}', 'MovieController@show');
 
+Route::get('/add', 'MovieController@add');
+
