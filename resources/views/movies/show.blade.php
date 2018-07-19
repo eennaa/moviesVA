@@ -12,6 +12,7 @@
     </head>
 
     <body>
+    
         <h2>{{ $movie->title }}</h2>
         <p>{{ $movie->genre }} </p>
         <p>{{ $movie->year }} </p>
